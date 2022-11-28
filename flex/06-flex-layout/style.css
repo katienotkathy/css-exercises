@@ -7,6 +7,56 @@ body {
   font-family: Roboto, sans-serif;
 }
 
+/* my additions start */
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.header {
+  display: flex;
+}
+
+.content {
+  flex: 1 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer {
+  display: flex;
+  background-color: lightgray;
+}
+
+a {
+  color: gray;
+  text-decoration: none;
+  
+}
+
+.left-links {
+  flex: 1 1 auto;
+}
+
+li {
+  padding: 10px;
+}
+
+ul.left-links, 
+ul.right-links {
+  list-style-type: none;
+  display: flex;
+}
+
+button {
+  padding: 10px;
+}
+
+/* my additions end */
+
 img {
   width: 600px;
 }
